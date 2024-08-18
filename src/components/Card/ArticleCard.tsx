@@ -19,16 +19,16 @@ const preloadImage = (src: string) => {
   });
 };
 
-const FADE_UP_VARIENT = {
-  initial: { opacity: 0, y: 30 },
-  whileInView: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.3,
-    },
-  },
-};
+// const FADE_UP_VARIENT = {
+//   initial: { opacity: 0, y: 30 },
+//   whileInView: {
+//     opacity: 1,
+//     y: 0,
+//     transition: {
+//       duration: 0.3,
+//     },
+//   },
+// };
 
 const FLIP_LEFT_VARIENT = {
   initial: { opacity: 0, rotateY: -90 },

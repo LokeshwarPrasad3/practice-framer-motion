@@ -5,7 +5,7 @@ import ArticleLoader from "./Loader/ArticleLoader";
 interface ArticleGridTypes {
   toggleThemeMode: () => void;
 }
-const ArticleGrid: React.FC<ArticleGridTypes> = ({ toggleThemeMode }) => {
+const ArticleGrid: React.FC<ArticleGridTypes> = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   type articlesDataType = {
